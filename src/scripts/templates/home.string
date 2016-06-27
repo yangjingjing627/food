@@ -1,0 +1,72 @@
+<div class="m-home">
+			<header>
+				<ul>
+					<li class="yo-ico">&#xe624;</li>
+					<li>
+						<i class="yo-ico">&#xe624;</i>
+						<b>请输入想要的内容</b>
+					</li>
+					<li>
+						<i class="yo-ico">&#xe607;</i>
+						<b>我的</b>
+					</li>
+				</ul>
+			</header>
+			<nav>
+				<div class="nav-top">
+					<dl>
+						<dt class="yo-ico">&#xe62b;</dt>
+						<dd>美食分类</dd>
+					</dl>
+					<dl>
+						<dt class="yo-ico">&#xe62b;</dt>
+						<dd>美食分类</dd>
+					</dl>
+					<dl>
+						<dt class="yo-ico">&#xe62b;</dt>
+						<dd>美食分类</dd>
+					</dl>
+					<dl>
+						<dt class="yo-ico">&#xe62b;</dt>
+						<dd>美食分类</dd>
+					</dl>
+				</div>
+				<div class="nav-top">
+					<dl>
+						<dt class="yo-ico">&#xe62b;</dt>
+						<dd>美食分类</dd>
+					</dl>
+					<dl>
+						<dt class="yo-ico">&#xe62b;</dt>
+						<dd>美食分类</dd>
+					</dl>
+					<dl>
+						<dt class="yo-ico">&#xe62b;</dt>
+						<dd>美食分类</dd>
+					</dl>
+					<dl>
+						<dt class="yo-ico">&#xe62b;</dt>
+						<dd>美食分类</dd>
+					</dl>
+				</div>
+			</nav>
+			<section spa-widget='scroll'>
+				<div id="">
+					<div class="adv">
+						欢迎进入美食网！
+					</div>
+					<div class="m-home-foodpic">
+						 <h1><img src="/food/images/images/m-home_02.gif"/></h1>
+						 <h1><img src="/food/images/images/m-home_03.gif"/><img src="/food/images/images/m-home_04.gif"/></h1>
+					</div>
+										<div class="adv">
+						欢迎进入美食网！
+					</div>
+					<div class="m-home-foodpic">
+						 <h1><img src="/food/images/images/m-home_02.gif"/></h1>
+						 <h1><img src="/food/images/images/m-home_03.gif"/><img src="/food/images/images/m-home_04.gif"/></h1>
+					</div>					
+				</div>
+			</section>
+		</div>
+		

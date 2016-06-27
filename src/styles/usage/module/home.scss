@@ -1,0 +1,140 @@
+        .m-home{
+            @include flexbox();
+            @include flex-direction(column);
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            
+            >*{
+                width: 100%;
+            }
+            header{
+                background-color: #d6c897;
+                height: .44rem;
+                ul{
+                    width: 100%;
+                    height: 100%;
+                    @include flexbox();
+                    li{
+                        @include flex(1);
+                        line-height: .44rem;
+                        height: 100%;
+                        text-align: center;
+                        font-size: .22rem;
+                        color: #fff;
+                        &:nth-child(3){
+                            i{
+                                font-size: .22rem;
+                                color: #fff;
+                                line-height: .44rem;
+                                
+                            }
+                        }
+                        &:nth-child(2){
+                            border-radius: 10px;
+                            background-color: #aba079;
+                            width: 100%;
+                            height: 80%;
+                            margin-top: .06rem;
+                            line-height: .35rem;
+                            @include flex(3);
+                            @include flexbox();
+                            i{
+                                overflow: hidden;
+                                font-size: .22rem;
+                                display: block;
+                                height: 100%;
+                                line-height: .35rem;
+                                @include flex(1);
+                                font-size: .16rem;
+                            }
+                            b{
+                                display: block;
+                                font-size: .16rem;
+                                @include flex(2);
+                                text-align: center;
+                            }
+                        }
+                        
+                        
+                        
+                    }
+                    
+                }
+            }
+            nav{
+                background-color: yellow;
+//              height: .35rem;
+                .nav-top{
+                    height: .92rem;
+                    @include flexbox();
+                    @include justify-content(center);
+                    @include align-items(center);
+                    
+                    dl{
+                        @include flex(1);
+//                      @include flexbox();
+//                      @include flex-direction(column);
+                            margin: .1rem;
+
+                        dt{
+                            @include flex(2);
+                            width: 100%;
+                            font-size: .3rem;
+                            color: #ccc;
+                            background-color: red;
+                            border-radius: 50%;
+                            text-align: center;
+                        }
+                        dd{
+                            @include flex(1);
+                            width: 100%;
+                            font-size: .16rem;
+                            line-height: .32rem;
+                            padding-top: .1rem;
+                            box-sizing: border-box;
+                            text-align: center;
+                        }
+                    }
+                }
+                
+
+            }
+            section{
+                @include flex(1);
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+//              background-color: red;
+                .adv{
+                    height: .34rem;
+                    line-height: .34rem;
+                    width: 100%;
+                    padding-left: 10%;
+                    border: 1px solid #f3f3f3;
+                    box-sizing: border-box;
+                }
+                .m-home-foodpic{
+                    @include flexbox();
+                    h1{
+                        @include flex(1);
+                        img{
+                            height: 100%;
+                        }
+                        &:nth-child(2){
+                                @include flexbox();
+                                @include flex-direction(column);
+                                img{
+                                    @include flex(1);
+                                    width: 100%;
+                                    &:nth-child(1){
+                                        border-bottom: 1px solid #f3f3f3;
+                                        box-sizing: border-box;
+                                    }
+                                }
+                        }
+                    }
+                }
+            }
+            
+        }

@@ -1,0 +1,18 @@
+<div class="swiper-container" id="guide-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="/food/images/guide.png">
+    </div>
+    <div class="swiper-slide">
+      <img src="/food/images/guide.png">
+      
+    </div>
+    <div class="swiper-slide">
+      <img src="/food/images/guide.png">
+		
+    </div>
+    <div class="swiper-slide" action-type="goto.index">
+      <img src="/food/images/guide.png">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+.m-index{
+        height: 100%;
+        width: 100%;
+        @include flexbox();
+        @include flex-direction(column);
+    >*{
+        width: 100%;
+    }
+    header{
+        background-color: red;
+        height: .44rem;
+    }
+    nav{
+//      height: .44rem;
+        @include flex(1);
+        width: 100%;
+        background-color: green;
+    }
+    section{
+        @include flex(1);
+        background-color: darkslategrey;
+        width: 100%;
+    }
+    footer{
+        background-color: red;
+        height: .44rem;
+        
+    }
+}

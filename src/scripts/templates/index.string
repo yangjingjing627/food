@@ -1,0 +1,15 @@
+<div class="m-index">
+	<div class="l-container">
+		
+		
+	</div>
+	<footer>
+		<ul> 
+	      <li class="active" action-type='switch.tabs' data-tag='home'><i class="yo-ico">&#xe6e2;</i><b>首页</b></li>
+	      <li action-type='switch.tabs' data-tag='search'><i class="yo-ico">&#xe6e2;</i><b>招商信息</b></li>
+	      <li action-type='switch.tabs' data-tag='cook'><i class="yo-ico">&#xe6e2;</i><b>厨房宝典</b></li>
+	      <li action-type='switch.tabs' data-tag='club'><i class="yo-ico">&#xe6e2;</i><b>首会员中心</b></li>
+	      <li action-type='switch.tabs' data-tag='more'><i class="yo-ico">&#xe652;</i><b>更多</b></li>
+	    </ul>
+	</footer>
+</div>
