@@ -14,7 +14,7 @@ require('./views/index.js');
 
 //SPA设置
 SPA.config({
-	indexView: 'index'
+	indexView: 'guide'
 })
 
 
